@@ -10,7 +10,7 @@ mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 
 db.on('error', (err) => {
-    console.log(`Error ocured while trying to connect to mongo: ${err}`)
+  console.log(`Error ocured while trying to connect to mongo: ${err}`)
 })
 
 

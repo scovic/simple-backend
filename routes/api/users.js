@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/', (req, res, next) => {
-    res.status(200).send("It wordks");
+    res.status(200).send("It works");
 })
 
 router.post('/getUser', (req, res, next) => {
